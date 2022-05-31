@@ -3,7 +3,7 @@ import time
 from pygame import mixer
 mixer.pre_init(frequency=48000, size=-16, channels=2, buffer=512)
 mixer.init()
-# select your song #
+# select your song 
 mixer.music.load("./Kina sona.mp3") 
 t = turtle.Turtle()
 
